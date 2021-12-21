@@ -82,3 +82,6 @@ header a {
   background-position: center;
   background-size: cover;
 }
+.form__containter {
+  width: 550px;
+}
