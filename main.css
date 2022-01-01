@@ -144,3 +144,56 @@ select {
 input {
   outline: none;
 }
+button:hover{
+  background-color: #f6980c;
+  box-shadow: 0 16px 36px rgba246 152 12 / 20%;
+}
+button:ease-in{
+  transition: background-color, color 0.2s;
+}
+
+
+
+footer{
+  padding: 90px 20px 20px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer__container{ 
+  display: flex;
+  justify-content: center;  
+  
+}      
+.footer__copyright{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.5;
+  margin-top: 40px; 
+} 
+
+.footer__group{
+  display: flex;
+  margin-right: 80px;
+  flex-direction: column;
+ }
+
+.footer__group h3{
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 30px;  
+}
+.footer__links{
+  display: flex;
+  flex-direction: column;
+}
+.footer__links a {
+  margin-bottom: 15px;
+}
+
+
+
+
+              
+     
+  
