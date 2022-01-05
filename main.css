@@ -1,5 +1,10 @@
 header {
   display: flex;
+  position: sticky;
+  background-color:#fff;
+  top:0;
+  z-index: 1;
+
 }
 header {
   display: flex;
@@ -51,6 +56,9 @@ header a {
 .about__sun-image {
   width: 100px;
   height: 100px;
+  animation: rotation 10s infinite;
+  animation-timing-function: linear;
+  position: absolute;
 }
 .about {
   display: flex;
@@ -190,6 +198,22 @@ footer{
 }
 .footer__links a {
   margin-bottom: 15px;
+}
+ 
+/*@keyframes rotation.about__sun-image {
+  animation-duration: 4s;
+  animation: infinite;
+  animation-timing-function: linear;
+  animation: rotate(360deg); 
+}*/
+
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 
